@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192">
+<rect width="192" height="192" fill="#2c3e50"/>
+<g fill="#bdc3c7">
+  <rect x="30" y="30" width="50" height="130"/>
+  <rect x="112" y="30" width="50" height="130"/>
+</g>
+<g fill="#ecf0f1">
+  <!-- windows left -->
+  <rect x="38" y="40" width="10" height="12"/>
+  <rect x="58" y="40" width="10" height="12"/>
+  <rect x="38" y="65" width="10" height="12"/>
+  <rect x="58" y="65" width="10" height="12"/>
+  <rect x="38" y="90" width="10" height="12"/>
+  <rect x="58" y="90" width="10" height="12"/>
+  <rect x="38" y="115" width="10" height="12"/>
+  <rect x="58" y="115" width="10" height="12"/>
+  <!-- windows right -->
+  <rect x="120" y="40" width="10" height="12"/>
+  <rect x="140" y="40" width="10" height="12"/>
+  <rect x="120" y="65" width="10" height="12"/>
+  <rect x="140" y="65" width="10" height="12"/>
+  <rect x="120" y="90" width="10" height="12"/>
+  <rect x="140" y="90" width="10" height="12"/>
+  <rect x="120" y="115" width="10" height="12"/>
+  <rect x="140" y="115" width="10" height="12"/>
+</g>
+</svg>

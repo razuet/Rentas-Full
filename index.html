@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rentas Edificio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+<body>
+<h1>Rentas Edificio</h1>
+<div>
+Mes actual: <span id="monthLabel"></span>
+<button onclick="generateReport()">Ver reporte</button>
+<button onclick="exportPDF()">Exportar PDF</button>
+</div>
+<div id="grid"></div>
+<div id="report" class="report"></div>
+<script src="app.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>
